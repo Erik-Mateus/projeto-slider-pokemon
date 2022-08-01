@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon Slider</title>
+
+    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/pokebola.png" alt="pokebola" srcset="" class="pokebola">
+        <h1 class="titulo">Pokémons Slider!!</h1>
+    </header>
+    
+    <main class="listaset">
+        <button class="btnseta btnvoltar" id="setaVoltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+        
+        <ul class="pkms">
+            <li class="cartao selecionado fundo1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300 </p>
+                </div>
+               <div class="containerimg">
+                <img src="src/imagens/pikachu.png" alt="pikachu" class="imgpokemon"> 
+               </div> 
+               <div class="descricao">
+               <h3 class="titulo">Descrição</h3>
+               <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat et iste nihil exercitationem. Aliquid nesciunt enim impedit sed, repellendus aperiam fuga accusantium corrupti iste delectus ipsum corporis omnis sit. Voluptas!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti rem hic suscipit alias reiciendis sint vel maiores incidunt assumenda provident veniam vitae laborum atque omnis autem quae, totam sed? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum officiis qui ab velit ducimus accusantium eveniet labore vel dolore explicabo neque at dolorem ex, sapiente, eius iusto nobis laborum id?</p>
+                </div>
+
+            </li>
+            <li class="cartao fundo2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 500 </p>
+                </div>
+                <div>
+                    <img src="src/imagens/charizard.png" alt="charizard" class="imgpokemon"> 
+                </div>
+                <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, architecto cumque consectetur error velit magni mollitia odio in dolorem itaque doloribus exercitationem tenetur quia quibusdam ipsum perspiciatis libero commodi consequuntur!</p>
+                 </div>
+            </li>
+            <li class="cartao fundo3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 400 </p>
+                </div>
+                <div>
+                    <img src="src/imagens/mewtwo.png" alt="mewtwo" class="imgpokemon">
+                </div>
+                <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum accusamus nemo ut, sed dolores ullam quasi praesentium impedit in commodi nihil voluptate mollitia dolorum culpa voluptates saepe similique illum?</p>
+                 </div>
+            </li>
+        </ul>
+        <button class="btnseta" id="setaAvancar">
+            <img src="src/imagens/seta.png" alt="seta avannçar">
+        </button>
+
+    </main>
+    <script src="src/js/index.js"></script>
+
+</body>
+</html> 

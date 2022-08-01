@@ -1,0 +1,26 @@
+@media (max-width: 620px){
+    .listaset {
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btnseta{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pkms{
+        height: 480px;
+        overflow: auto;
+    }
+    .cartao .informacoes .nome {
+        max-width: 50%;
+        font-size: 18px;
+    }
+    .cartao .informacoes .vida{
+        font-size: 13px;
+        
+    }
+}
